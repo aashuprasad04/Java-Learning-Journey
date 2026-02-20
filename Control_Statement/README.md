@@ -5,6 +5,7 @@
 - switch statement
 - break statement
 - continue statement
+- Nested loops
 
 ## Description
 Control statements are used to control the flow of program execution in a Java program.
