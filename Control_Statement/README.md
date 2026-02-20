@@ -33,3 +33,22 @@ The **continue** statement in java is used to skip the current iteration of a lo
 ### Usage
 - To skip specific values in a loop
 - To control loop flow using conditions
+
+## Nested loops
+A nested loop means a loop inside another loop.
+- one loop runs completely inside another loop.
+
+### usage
+- pattern printing 
+- Matrix operation
+- Comparing elements
+
+### Syntax
+```java
+outer_loop {
+    inner_loop {
+        // statements
+    }
+}
+```
+
