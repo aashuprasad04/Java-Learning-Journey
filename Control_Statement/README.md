@@ -25,3 +25,5 @@ It stops the execution instantly when the specified condition is met.
 ### Usage
 - Used inside loops (for, while, do-while)
 - Used in switch statements to prevent fall-through
+
+
