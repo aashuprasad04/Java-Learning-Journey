@@ -27,6 +27,34 @@ It stops the execution instantly when the specified condition is met.
 - Used inside loops (for, while, do-while)
 - Used in switch statements to prevent fall-through
 
+### Example
+```java
+public class Break {
+    public static void main(String[] args){
+
+        // break statement used in loop
+        for(int i=0; i<=5; i++){
+            System.out.println(i);
+            if(i==3){
+                break;
+            }
+        }
+
+        // break statement used in switch case
+        int i=1;
+        switch(i){
+            case 1:
+                System.out.println("one");
+                break;
+            case 2:
+                System.out.println("two");
+                break;
+        }
+
+    }
+}s
+```
+
 ## CONTINUE Statement
 The **continue** statement in java is used to skip the current iteration of a loop and move directly to the next iteration.
 
