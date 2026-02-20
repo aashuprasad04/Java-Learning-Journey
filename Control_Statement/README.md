@@ -15,3 +15,5 @@ Control statements are used to control the flow of program execution.
 - Continue.java
 
 ------------------------------>> BREAK <<------------------------------
+The break staement is used to immediately stop a loop or swtich statment and move the program control to the next statement after it.
+break stops execution instantly.
