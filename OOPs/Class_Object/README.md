@@ -18,7 +18,7 @@ Each object has its own copy of fields defined in the class.
 ```java
 ClassName obj = new ClassName();
 ```
-### Example
+### Class & Object Example
 ```java
 class A {
     void displayClassA() {
