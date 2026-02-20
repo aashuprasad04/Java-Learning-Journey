@@ -18,3 +18,20 @@ Each object has its own copy of fields defined in the class.
 ```java
 ClassName obj = new ClassName();
 ```
+### Example
+```java
+class A {
+    void displayClassA() {
+        System.out.println("A");
+    }
+}
+
+public class ClassAndObject {
+    public static void main(String[] args) {
+
+        A a = new A();
+        a.displayClassA();
+
+    }
+}
+```
