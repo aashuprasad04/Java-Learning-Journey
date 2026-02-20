@@ -1,11 +1,13 @@
 # Control Statements in Java
 
-## Topics Covered
-- if statement
-- switch statement
-- break statement
-- continue statement
-- Nested loops
+## 📚 Topics Covered
+1. if / if-else
+2. switch
+3. for loop
+4. while loop
+5. do-while loop
+6. break / continue
+7. Nested loops
 
 ## Description
 Control statements are used to control the flow of program execution in a Java program.
@@ -17,7 +19,7 @@ Control statements are used to control the flow of program execution in a Java p
 
 ---
 
-## BREAK Statement
+## 6.1 BREAK Statement
 
 The **break statement** is used to immediately terminate a loop or a switch statement and transfer program control to the next statement following it.
 
@@ -55,14 +57,14 @@ public class Break {
 }
 ```
 
-## CONTINUE Statement
+## 6.2 CONTINUE Statement
 The **continue** statement in java is used to skip the current iteration of a loop and move directly to the next iteration.
 
 ### Usage
 - To skip specific values in a loop
 - To control loop flow using conditions
 
-## Nested loops
+## 7 Nested loops
 A nested loop means a loop inside another loop.
 - one loop runs completely inside another loop.
 
