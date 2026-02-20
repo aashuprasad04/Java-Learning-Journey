@@ -26,3 +26,9 @@ It stops the execution instantly when the specified condition is met.
 - Used inside loops (for, while, do-while)
 - Used in switch statements to prevent fall-through
 
+## CONTINUE Statement
+The **continue** statement in java is used to skip the current iteration of a loop and move directly to the next iteration.
+
+### Usage
+- To skip specific values in a loop
+- To control loop flow using conditions
