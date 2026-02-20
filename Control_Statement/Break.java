@@ -9,7 +9,7 @@ public class Break {
             }
         }
 
-        // break statement used in swith case
+        // break statement used in switch case
         int i=1;
         switch(i){
             case 1:
