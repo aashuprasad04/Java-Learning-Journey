@@ -7,13 +7,21 @@
 - continue statement
 
 ## Description
-Control statements are used to control the flow of program execution.
+Control statements are used to control the flow of program execution in a Java program.
 
 ## Programs Included
 - Switch.java
 - Break.java
 - Continue.java
 
------------------------------->> BREAK <<------------------------------ <br>
-The break staement is used to immediately stop a loop or swtich statment and move the program control to the next statement after it.
-break stops execution instantly.
+---
+
+## BREAK Statement
+
+The **break statement** is used to immediately terminate a loop or a switch statement and transfer program control to the next statement following it.
+
+It stops the execution instantly when the specified condition is met.
+
+### Usage
+- Used inside loops (for, while, do-while)
+- Used in switch statements to prevent fall-through
