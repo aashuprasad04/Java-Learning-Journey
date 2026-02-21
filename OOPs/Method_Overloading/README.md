@@ -22,7 +22,7 @@ class A {
     }
 }
 
-public class MethodOverloading {
+public class OverloadByNumber {
     public static void main(String[] args) {
 
         A a = new A();
@@ -58,7 +58,7 @@ class MV02 {
 
 }
 
-public class MethodOverloading02 {
+public class OverloadByType {
     public static void main(String[] args) {
 
         MV02 m = new MV02();
