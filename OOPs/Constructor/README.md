@@ -39,4 +39,77 @@ public class DefaultCons {
 ```
 Default Constructor
 ```
+## 2. Parameterized Constructor
+That accepts arguments(parameters) to initialize an object with spedific values when it is created.
+- It takes input parameters.
+- It allows you to set custom values for object properties.
 
+```java
+class PC {
+    int age;
+    String name;
+
+    PC(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    void display() {
+        System.out.println("Age : " + age + "\n" + "Name : " + name);
+    }
+}
+
+public class ParameterizedCons {
+    public static void main(String[] args) {
+
+        PC p = new PC(20, "Azy");
+        p.display();
+
+    }
+}
+```
+### Otput : 
+```
+Age : 20
+Name : Azy
+```
+## 3 Copy Constructor 
+That creates a new object by copying the data of an existing object of the same class.
+- The parameter of a copy cons. must be the same class type.
+
+```java
+class CopyCons01 {
+
+    int age;
+    String name;
+
+    CopyCons01(int age, String name) { // 02. Parameterized Constructor
+        this.age = age;
+        this.name = name;
+    }
+
+    CopyCons01(CopyCons01 c) { // 03 Copy Constructor
+        age = c.age;
+        name = c.name;
+    }
+
+    void display() {
+        System.out.println("Age : " + age + "\n" + "Name : " + name);
+    }
+}
+
+public class CopyCons {
+    public static void main(String[] args) {
+
+        CopyCons01 c1 = new CopyCons01(20, "Aashu");
+        CopyCons01 c2 = new CopyCons01(c1);
+        c2.display();
+
+    }
+}
+```
+### Output : 
+```
+Age : 20
+Name : Aashu
+```
