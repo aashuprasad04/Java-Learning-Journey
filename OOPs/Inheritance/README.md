@@ -39,11 +39,40 @@ Basic Example Class 01
 ```
 
 ## Types of Inheritance
-1. Single Inheritance
-2. Multilevel Inhertance
-3. Hierarchical Inheritance
-4. Multiple Inheritance
-5. Hybrid Inheritance
+1. Single Inheritance : One Parent -> One child
+   ```text
+        Parent
+           |
+         Child
+    ```
+2. Multilevel Inhertance : Inheritance chain (level by level)
+```text
+        GrandParent
+             |
+           Parent
+             |
+            Child
+``` 
+3. Hierarchical Inheritance : One Parent -> Multiple children
+```text
+           Parent
+       /      \
+   Child1    Child2
+   ```
+4. Multiple Inheritance : Multiple Parents -> One Child [Achieved using interface]
+    ```text
+    Parent1     Parent2
+     \       /
+        Child
+    ```
+5. Hybrid Inheritance : Combination of diff inheritance types
+```text
+          Parent
+         /      \
+     Child1    Child2
+         \
+          GrandChild
+```
 
 ### 1. Single Inheritance :
 ### 4. Multiple Inheritance :
@@ -72,13 +101,25 @@ void display();    // abstract method
 }
 ```
 #### (b)    Abstract method
-A method without body is called abstract method.
+A method without body is called abstract method. <br>
+When an abstract method is declared, it must be implemented.
+
 ```java
 void abstractMethod();    // No {}
 ```
+
+abstract methods of an interface must be implemented using public only.
+You cannot implement them normally (without public).
+```java
+public void abstractMethod() {
+// code
+}
+```
+
+
 #### (c)    Default Method : 
-A methhod with body inside interface using default keyword.
-When an abstract method is declared, it must be implemented.
+A methhod with body inside interface using default keyword. 
+
 ```java
 default void show() {
 System.out.println("Default method");
