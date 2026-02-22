@@ -12,3 +12,34 @@ Polymorphism allows one object or method to behave differently in different situ
 #### Types of Polymorphism
 1. Compile Time Polymorphism (Static Polymrophism) : Achieved using Method Overloading
 2. Runtime Polymorphism (Dynamic Polymorphism) : Achieved using Method @Overriding
+
+
+## 2. Runtime Polymorphism
+```java
+class AA {
+    void display() {
+        System.out.println("A");
+    }
+}
+
+class BB extends AA {
+    @Override
+    void display() {
+        System.out.println("B");
+    }
+}
+
+public class RunTimePoly {
+    public static void main(String[] args) {
+
+        AA aa = new BB();
+        aa.display();
+
+    }
+}
+
+```
+### Output : 
+```
+B
+```
