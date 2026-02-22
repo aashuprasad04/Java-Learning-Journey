@@ -13,7 +13,31 @@ Polymorphism allows one object or method to behave differently in different situ
 1. Compile Time Polymorphism (Static Polymrophism) : Achieved using Method Overloading
 2. Runtime Polymorphism (Dynamic Polymorphism) : Achieved using Method @Overriding
 
+## 1. Compile Time Polymorphism
+```java
+class A {
+    int add(int a, int b) {
+        return a + b;
+    }
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+};
 
+public class CompileTimePoly {
+    public static void main(String[] args) {
+
+        A a = new A();
+        System.out.println(a.add(5, 5));
+        System.out.println(a.add(5, 5, 5));
+    }
+}
+```
+### Output : 
+```
+10
+15
+```
 ## 2. Runtime Polymorphism
 ```java
 class AA {
