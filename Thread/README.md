@@ -86,3 +86,22 @@ public class Main {
 Advantage :
 - Avoids java's single inhertance limitation.
 - No need to extend Thread - Multiple inheritance is indirectly supported.
+
+
+## Important method
+1. Method	Purpose/Use Case
+2. start()	Start thread
+3. run()	Task to execute
+4. sleep(ms)	Pause thread
+5. join()	Wait for other thread
+6. yield()	Suggest CPU release
+7. setName() / getName()	Set/get thread name
+8. setPriority() / getPriority()	Set/get thread priority
+9. isAlive()	Check if thread running
+10. interrupt() / isInterrupted()	Stop or check interruption
+11. currentThread()	Reference current thread
+12. getId()	Unique thread ID
+13. setDaemon() / isDaemon()	Set/check daemon thread
+14. getState()	Get thread state
+15. toString()	Thread info as string
+
