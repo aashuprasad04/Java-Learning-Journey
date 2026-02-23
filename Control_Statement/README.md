@@ -8,6 +8,7 @@
 5. do-while loop
 6. break / continue
 7. Nested loops
+8. for-each loop
 
 ## Description
 Control statements are used to control the flow of program execution in a Java program.
@@ -98,3 +99,36 @@ public class NestedLoops {
 
 
 ```
+## 7 for-each loop
+The for-each loop is a simple way to automatically iterate over each element of an array or collection.
+### Syntax : 
+```java
+for (DataType variable : array_or_collection) {
+    // use variable
+}
+```
+- DataType variable : represent the current element.
+- array_of_collection : the array or list whose elements will be looped through.
+
+### Example : 
+```java
+public class forEachLoop {
+    public static void main(String[] args) {
+        // System.out.println("hello");
+
+        String[] A = { "a", "b", "c" };
+        for (String AA : A) {
+            System.out.println(AA);
+        }
+
+    }
+}
+```
+### Output : 
+```
+a
+b
+c
+
+```
+
