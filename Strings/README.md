@@ -60,3 +60,58 @@ s2 → “Java”
 ```
 - Seprate objects are created in Heap memory.
 - Creates a new object in heap memory, even if the same value exists in SCP. 
+<br><br>
+
+## 2.  String methods
+Java String class provides many built-in methods to manipulate and handle text,<br>
+String are immutable, so most methods return a new string instead of changing the original.
+1. length()
+   <br>return the number of charater string.
+```java
+String s = "Hello";
+int a = s.length();
+System.out.println(a);  // Output: 5
+```
+2. chatAt(int index)
+   <br> Returns the character at the given index.
+```java
+String s = "Hello";
+char a = s.charAt(0);
+System.out.println(a);  // Output: H
+```
+3. concat(String str)
+   <br> Concatenates (joins) two strings.
+```java
+String s = "Hello";
+String a = s.concat(" World");
+System.out.println(s);  // Output: Hello
+System.out.println(a);  // Output: Hello World   
+```
+4. equals(object obj)
+   <br> Compare two strings based on content.
+```java
+String s = "Hello";
+String ss = "hello";
+boolean a = s.equals(ss);
+System.out.println(a);  // Output: false
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
