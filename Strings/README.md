@@ -95,8 +95,21 @@ String ss = "hello";
 boolean a = s.equals(ss);
 System.out.println(a);  // Output: false
 ```
-
-
+5. equalsIgnoreCase(object obj)
+   <br> Compare two strings ignoring case.
+```java
+String s = "Hello";
+String ss = "hello";
+boolean a = s.equalsIgnoreCase(ss);
+System.out.println(a); // Output: true
+```
+6. toUpperCase()
+   <br> Converts string to uppercase.
+```java
+String s = "Hello";
+String ss = s.toUpperCase();
+System.out.println(ss); // Output: HELLO
+```
 
 
 
