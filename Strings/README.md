@@ -45,6 +45,7 @@ String Pool
 s1   s2
 ```
 - Both variables refer to same memory location.
+- If a string already exists in SCP, Java does not create a new object, it reuses the existing one.
 
 #### 2. String Object (Using new keyword) => Use heap memory
 ```java
@@ -57,4 +58,5 @@ s1 → “Java”
 s2 → “Java”
 
 ```
-- Seprate objects are created in Heap memory. 
+- Seprate objects are created in Heap memory.
+- Creates a new object in heap memory, even if the same value exists in SCP. 
