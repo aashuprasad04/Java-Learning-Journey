@@ -134,7 +134,15 @@ String s = "Hello World";
 String a = s.substring(6);
 System.out.println(a); // Output: World
 ```
-10. replace(char oldChar, char newChar)
+
+10. substring(int start, int end)
+    <br> Returns substring from start index to ***end-1***.
+```java
+String s = "Hello World";
+System.out.println(s.substring(6)); // Output: World
+```
+
+11. replace(char oldChar, char newChar)
     <br> Replace all occurences of a chracter.
 ```java
 String s = "Hello World";
@@ -143,7 +151,7 @@ String a = s.replace("World", "Java");
 System.out.println(aa); // Output: Hella Warld
 System.out.println(a); // Output: Hello Java
 ```
-11. replaceAll(String regex, String replacement)
+12. replaceAll(String regex, String replacement)
     <br> Replace all occurences of a pattern using regex.
     - regex : regex short for (regular expression) is a pattern used to match, search or manipulate strings.
     - When applied to a string, it helps check whether the string fits a certain pattern.
