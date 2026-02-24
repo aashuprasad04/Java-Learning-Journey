@@ -254,7 +254,12 @@ System.out.println(str); // Output: "100"
    - Automatically increase capacity when neede (Dynamic size).
    - Stored in heap.   
 
-
+#### Means: 
+ - StringBuffer store a normal string like String.
+ - Internally uses a char array to store characters.
+   ```java
+        StringBuffer sb = new StringBuffer("hello"); // 'h','e','l','l','o'
+   ```
 
 
 
