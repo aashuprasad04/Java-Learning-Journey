@@ -392,6 +392,9 @@ System.out.println(sb1.length()); // length 17
 #### Imp Methods
 Alsmost all methods of StringBuilder are same as StringBuffer.
 
+
+
+## Diff bet StringBuffer and StringBuilder
 ```text
 | Feature           | **StringBuffer**        | **StringBuilder**        |
 | ----------------- | ----------------------- | ------------------------ |
