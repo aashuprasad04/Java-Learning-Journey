@@ -334,3 +334,11 @@ System.out.println(sb1.length()); // length 17
         s6.reverse();
         System.out.println(s6);        // Output : olleH
    ```
+
+7. charAt(int index);
+   <br> Return character at given index.
+   - Exact with 0 indexing.
+   ```java
+        StringBuffer s7 = new StringBuffer("Azy");
+        System.out.println(s7.charAt(0));
+   ```
