@@ -366,7 +366,16 @@ System.out.println(sb1.length()); // length 17
     ```
 
 
+12. indexOf(String s); | lastIndexOf(String st);
+    - indexOf : Returns first index of substring.
+    - lastIndexOf : Returns last index of substring.
+   
+    ```java
+        StringBuffer sb10 = new StringBuffer("Hello_World");
+        System.out.println(sb10.indexOf("l"));         // Output : 2
 
+        System.out.println(sb10.lastIndexOf("l"));         // Output : 9
+   ```
 
 
 
