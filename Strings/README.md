@@ -254,12 +254,37 @@ System.out.println(str); // Output: "100"
    - Automatically increase capacity when neede (Dynamic size).
    - Stored in heap.   
 
+#### Syntax: 
+```java
+StringBuffer sb1 = new StringBuffer();               // empty buffer 
+StringBuffer sb2 = new StringBuffer("hello");        
+StringBuffer sb3 = new StringBuffer(50);             // Capacity 50 | default capacity 16  
+```
+
 #### Means: 
  - StringBuffer store a normal string like String.
  - Internally uses a char array to store characters.
    ```java
         StringBuffer sb = new StringBuffer("hello"); // 'h','e','l','l','o'
    ```
+#### Default Capacity:
+StringBuffer has a default space of 16 character.
+<br> If this is exceeded, it automatically double.
+
+- new capacity = (oldCapacity * 2) + 2
+
+```java
+StringBuffer sb1 = new StringBuffer();
+System.out.println(sb1.capacity()); // default capacity: 16
+System.out.println(sb1.length()); // length: 0
+
+sb1.append("abcdefghijklmnopq"); // a to q => 17 (1 indexing)
+System.out.println(sb1.capacity()); // new capacity 34
+// capacity formula => new capacity = (oldCapacity * 2) + 2
+
+System.out.println(sb1.length()); // length 17
+```
+
 
 
 
