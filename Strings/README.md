@@ -353,7 +353,17 @@ System.out.println(sb1.length()); // length 17
 
 
 
+9. length()
+10. capacity()
 
+11. ensureCapacity(int minCapacity);
+    <br> Ensure minimum capacity.
+    ```java
+        StringBuffer s9 = new StringBuffer();
+        System.out.println(s9.capacity());        // Output : 16
+        s9.ensureCapacity(100);
+        System.out.println(s9.capacity());        // Output : 100
+    ```
 
 
 
