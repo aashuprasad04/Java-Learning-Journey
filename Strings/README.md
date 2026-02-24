@@ -326,3 +326,11 @@ System.out.println(sb1.length()); // length 17
         s4.delete(0, 2);
         System.out.println(s4);        // Output : llo_world
     ```
+
+6. reverse()
+   <br> Reverse the whole buffer.
+   ```java
+        StringBuffer s6 = new StringBuffer("Hello");
+        s6.reverse();
+        System.out.println(s6);        // Output : olleH
+   ```
