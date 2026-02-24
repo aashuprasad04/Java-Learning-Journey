@@ -285,6 +285,21 @@ System.out.println(sb1.capacity()); // new capacity 34
 System.out.println(sb1.length()); // length 17
 ```
 
-
+#### Imp Methods
+1. append(String s);
+   <br> Add string at the end of buffer.
+   ```java
+           StringBuffer sb1 = new StringBuffer("hello");
+           sb1.append("_world");
+           System.out.println(sb1); // Outptu: hello_world
+   ```
+2. insert(int index, String s); 
+   <br> Insert String at specific index.
+   <br> Exact with 0 indexing
+   ```java
+        StringBuffer sb2 = new StringBuffer("hello_world");
+        sb2.insert(6, "Java"); // Exact with 0 indexing
+        System.out.println(sb2);        // Output : hello_Javaworld        
+   ```
 
 
