@@ -295,11 +295,17 @@ System.out.println(sb1.length()); // length 17
    ```
 2. insert(int index, String s); 
    <br> Insert String at specific index.
-   <br> Exact with 0 indexing
+   - Exact with 0 indexing
    ```java
         StringBuffer sb2 = new StringBuffer("hello_world");
         sb2.insert(6, "Java"); // Exact with 0 indexing
         System.out.println(sb2);        // Output : hello_Javaworld        
    ```
-
+3. substring(int start, int end);
+   <br> Returns substring
+   - from start to end-1.
+   ```java
+        StringBuffer sb21 = new StringBuffer("Hello");
+        System.out.println(sb21.substring(0, 2));
+   ```
 
