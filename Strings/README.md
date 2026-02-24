@@ -375,7 +375,7 @@ System.out.println(sb1.length()); // length 17
         System.out.println(sb10.indexOf("l"));         // Output : 2
 
         System.out.println(sb10.lastIndexOf("l"));         // Output : 9
-   ```
+    ```
 
 
 
