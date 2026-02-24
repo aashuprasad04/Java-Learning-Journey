@@ -239,9 +239,20 @@ System.out.println(str); // Output: "100"
     <br> doubt
 
 
-
-
-
+<br><br><br><br>
+## 3.  String Buffer => mutable | Thread-safe 
+- String buffer is a mutable sequence of character.
+- Modify the content of string without creating a new object.
+  - Belongs to java.lang package.
+  - Thread safe (method are synchronized)
+  - Can be used for
+    - inserting
+    - appending
+    - deleting
+    - reversing character
+   - Faster than String when doing many modification.
+   - Automatically increase capacity when neede (Dynamic size).
+   - Stored in heap.   
 
 
 
