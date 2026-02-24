@@ -340,5 +340,26 @@ System.out.println(sb1.length()); // length 17
    - Exact with 0 indexing.
    ```java
         StringBuffer s7 = new StringBuffer("Azy");
-        System.out.println(s7.charAt(0));
+        System.out.println(s7.charAt(0));        // Output : A
    ```
+
+8. setCharAt(int index, char ch);
+   <br> Replace character at given index
+   ```java
+        StringBuffer s8 = new StringBuffer("Azy");
+        s8.setCharAt(0, 'R');
+        System.out.println(s8);        // Output : Rzy
+   ```
+
+
+
+
+
+
+
+
+
+
+
+
+   
