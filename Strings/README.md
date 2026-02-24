@@ -177,6 +177,68 @@ $	        End of string
 \s	        Any whitespace (space, tab)
 ```
 
+13. split(String regex)
+    <br> Splits string into an array based on delimiter or reges.
+```java
+String s = "a,b,c,d";
+String[] a = s.split(",");
+
+for (String aa : a) {
+  System.out.print(aa + " "); // Output: a b c d 
+}
+```
+
+14. startsWith(String prefix)
+    <br> Checks if string starts with given prefix.
+```java
+String s = "Hello";
+boolean a = s.startsWith("He");
+System.out.println(a); // Output: true
+```
+
+15. endsWith(String suffix)
+
+16. contains (CharSequence s)
+    <br> Checks if string contains another sequence.
+```java
+String s = "Hello World";
+System.out.println(s.contains("World")); // Output: true
+```
+
+17. indexOf(String s)
+    <br> Returns the first occurrence index of a substring.
+```java
+        String s = "Hello";
+        int a = s.indexOf("H");
+        System.out.println(a); // OUtput: 0
+```
+18. lastIndexOf(String s)
+    <br> Returns the last occurrence index of a substring.
+```java
+        String s = "Helloe";
+        int a = s.lastIndexOf("e");
+        System.out.println(a);
+```
+
+19. isEmpty()
+    <br> Checks if string is empty (length = 0).
+```java
+String s = "";
+System.out.println(s.isEmpty()); // Output: true
+```
+
+20. valueOf()    ------    [ String.valueOf(int a) ]
+    <br> Converts other types (int, char, float, boolean) to string.
+```java
+int num = 100;
+String str = String.valueOf(num);
+System.out.println(str); // Output: "100"
+```
+
+21. compareTo(String s)
+    <br> doubt
+
+
 
 
 
