@@ -306,6 +306,23 @@ System.out.println(sb1.length()); // length 17
    - from start to end-1.
    ```java
         StringBuffer sb21 = new StringBuffer("Hello");
-        System.out.println(sb21.substring(0, 2));
+        System.out.println(sb21.substring(0, 2));        // Output : He
    ```
 
+4. replace(int start, int end, String s);
+   <br> Replace character
+   - from start to end-1
+     ```java
+        StringBuffer sb3 = new StringBuffer("Hello_world");
+        sb3.replace(0, 5, "Hi"); 
+        System.out.println(sb3);        // Output : Hi_world
+     ```
+
+5. delete(int start, int end);
+   <br> Delete character
+   - from start to end-1
+    ```java
+        StringBuffer s4 = new StringBuffer("Hello_world");
+        s4.delete(0, 2);
+        System.out.println(s4);        // Output : llo_world
+    ```
