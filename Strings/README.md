@@ -389,6 +389,26 @@ System.out.println(sb1.length()); // length 17
         System.out.println(sb.length());        // Output : 0
 ```
 
+#### Imp Methods
+Alsmost all methods of StringBuilder are same as StringBuffer.
+
+```text
+| Feature           | **StringBuffer**        | **StringBuilder**        |
+| ----------------- | ----------------------- | ------------------------ |
+| Package           | `java.lang`             | `java.lang`              |
+| Mutability        | Mutable                 | Mutable                  |
+| Methods           | Same methods            | Same methods             |
+| Synchronization   | ✅ Synchronized          | ❌ Not synchronized       |
+| Thread Safety     | Thread-safe             | Not thread-safe          |
+| Speed             | Slower                  | Faster 🚀                |
+| Performance       | Lower                   | Higher                   |
+| Multithreading    | Suitable                | Not suitable             |
+| Single-thread use | Not preferred           | Best choice ✅            |
+| Memory            | Slightly more overhead  | Less overhead            |
+| Introduced in     | Java 1.0                | Java 1.5                 |
+| Use Case          | Multiple threads access | Single thread operations |
+
+```
 
 
    
