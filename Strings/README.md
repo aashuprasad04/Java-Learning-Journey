@@ -376,8 +376,18 @@ System.out.println(sb1.length()); // length 17
 
         System.out.println(sb10.lastIndexOf("l"));         // Output : 9
     ```
+<br><br><br><br>
+## 3.  String Builder => mutable | Faster than String and StringBuffer for modification
+- Not thread safe
+- used when frequent string changes are required
 
+#### Syntax : 
+```java
+        StringBuilder sb = new StringBuilder();
 
+        System.out.println(sb.capacity());        // Output : 16
+        System.out.println(sb.length());        // Output : 0
+```
 
 
 
