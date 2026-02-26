@@ -250,8 +250,8 @@ It gives ready-made methods to work with arrays.
 2. toString()
    Convert array to readable string
    ```java
-int arr[] = { 1, 2, 3, 4, 5 };
-System.out.println( Arrays.toString(arr) );    // Output : [1, 2, 3, 4, 5]
+   int arr[] = { 1, 2, 3, 4, 5 };
+   System.out.println( Arrays.toString(arr) );    // Output : [1, 2, 3, 4, 5]
    ```
 
 
