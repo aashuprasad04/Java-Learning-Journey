@@ -243,7 +243,10 @@ import java.util.Arrays;
 ```
 It gives ready-made methods to work with arrays.
 
-
+1. Arrays.copyOf(oldArr, size)
+   ```java
+   int newArr[] = Arrays.copyOf(arr, 10);
+   ```
 
 
 
