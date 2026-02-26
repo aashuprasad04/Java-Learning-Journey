@@ -124,6 +124,19 @@ Row 2 | 70  80  90
 ```text
 array[row][column]
 ```
+
+### length: 
+```java
+        int arr1[][] = {
+                { 1, 2 },
+                { 3, 4 },
+                { 5, 6 } };
+
+        System.out.println(arr1.length); // row 3
+        System.out.println(arr1[0].length); // column 2 
+```
+
+
 ### 2D Array Example: 
 ```java
 
@@ -159,3 +172,23 @@ public class TwoDArray {
 3
 
 ```
+
+
+## 3. Jagged Array
+Jagged array is 2D array where each row has different number of columns.
+<br> Different columns size allowed. 
+
+### Syntax : 
+```java
+int jArr[][] = new int[3][];
+int jArr1[][] = {
+    { 1 },
+    { 2, 3 },
+    { 4, 5, 6 }
+};
+```
+
+
+
+
+
