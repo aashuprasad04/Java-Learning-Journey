@@ -247,17 +247,26 @@ It gives ready-made methods to work with arrays.
    ```java
    int newArr[] = Arrays.copyOf(arr, 10);
    ```
-2. toString()
+2. toString(arr)
    Convert array to readable string
    ```java
    int arr[] = { 1, 2, 3, 4, 5 };
    System.out.println( Arrays.toString(arr) );    // Output : [1, 2, 3, 4, 5]
    ```
 
-3. sort()
+3. sort(arr)
    Sort array (ascending)
    ```java
    int arr1[] = { 9, 8, 7, 6, 5, 4, 3, 2, 1 }
    Arrays.sort(arr1);
-   System.out.println(Arrays.toString(arr1));
+   System.out.println(Arrays.toString(arr1));      // Output : [1, 2, 3, 4, 5, 6, 7, 8, 9]
    ```
+
+4. binarySearch(arr, element)
+   Search element (array must be sorted)
+   ```java
+        int arr1[] = { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+        Arrays.sort(arr1);
+        System.out.println(Arrays.toString(arr1));      // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        System.out.println(Arrays.binarySearch(arr1, 5));   // Output: 4
+   ```   
