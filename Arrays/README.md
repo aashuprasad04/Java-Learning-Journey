@@ -254,5 +254,10 @@ It gives ready-made methods to work with arrays.
    System.out.println( Arrays.toString(arr) );    // Output : [1, 2, 3, 4, 5]
    ```
 
-
-
+3. sort()
+   Sort array (ascending)
+   ```java
+   int arr1[] = { 9, 8, 7, 6, 5, 4, 3, 2, 1 }
+   Arrays.sort(arr1);
+   System.out.println(Arrays.toString(arr1));
+   ```
