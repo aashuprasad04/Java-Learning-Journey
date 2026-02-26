@@ -87,6 +87,7 @@ A 2D Array means Array inside another array.
 ### Syntax: 
 ```java
 int[][] arr = new int[3][3];
+                    // [row][column]
 // Meaning 3 row and 3 column => 3 x 3 => 9 elements
 ```
 
