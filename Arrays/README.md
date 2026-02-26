@@ -101,3 +101,25 @@ Row 1 | 40  50  60
 Row 2 | 70  80  90
 ```
   
+### Initialization Methods
+1. Method 1
+   ```java
+   int[][] arr = new int[2][3];
+
+   arr[0][0] = 10;
+   arr[0][1] = 20;
+   arr[1][0] = 30;
+   ```
+2. Method 2
+   ```java
+   int[][] arr = {
+    {10,20,30},
+    {40,50,60}
+   };
+   ```
+
+### Access format:
+
+```text
+array[row][column]
+```
