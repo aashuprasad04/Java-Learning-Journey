@@ -242,12 +242,17 @@ Arrays is a utility class present in:
 import java.util.Arrays;
 ```
 It gives ready-made methods to work with arrays.
-
+<br>
 1. Arrays.copyOf(oldArr, size)
    ```java
    int newArr[] = Arrays.copyOf(arr, 10);
    ```
-
+2. toString()
+   Convert array to readable string
+   ```java
+int arr[] = { 1, 2, 3, 4, 5 };
+System.out.println( Arrays.toString(arr) );    // Output : [1, 2, 3, 4, 5]
+   ```
 
 
 
