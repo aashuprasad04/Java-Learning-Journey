@@ -137,7 +137,7 @@ array[row][column]
 ```
 
 
-### 2D Array Example: 
+### 2D Array Example | Printing 2D Array: 
 ```java
 
 public class TwoDArray {
@@ -188,7 +188,50 @@ int jArr1[][] = {
 };
 ```
 
+### length
+```java
+        int jArr1[][] = {
+                { 1 },
+                { 2, 3 },
+                { 4, 5, 6 }
+        };
+
+        System.out.println(jArr1.length); // column 3
+        System.out.println(jArr1[0].length); // row 1 => 1
+        System.out.println(jArr1[1].length); // row 2 => 2
+        System.out.println(jArr1[2].length); // row 3 => 3
+```
 
 
+### Printing jagged Array
+```java
+
+public class JaggedArray {
+    public static void main(String[] args) {
+
+        int jArr[][] = new int[3][];
+        int jArr1[][] = {
+                { 1 },
+                { 2, 3 },
+                { 4, 5, 6 }
+        };
+
+        for (int row = 0; row < jArr1.length; row++) {
+            for (int column = 0; column < jArr1[row].length; column++) {
+                System.out.print(jArr1[row][column]);
+            }
+            System.out.println();
+        }
+
+    }
+}
+
+```
+### Output : 
+```
+1
+23
+456
+```
 
 
