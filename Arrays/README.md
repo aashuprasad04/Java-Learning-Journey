@@ -67,4 +67,14 @@
       }
 
       ```
+
+  ### Array Size Rule
+| Data Type     | Default Value |
+| ------------- | ------------- |
+| int           | 0             |
+| double        | 0.0           |
+| boolean       | false         |
+| String/Object | null          |
+  
+
     
