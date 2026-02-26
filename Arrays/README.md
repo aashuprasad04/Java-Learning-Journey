@@ -124,3 +124,38 @@ Row 2 | 70  80  90
 ```text
 array[row][column]
 ```
+### 2D Array Example: 
+```java
+
+public class TwoDArray {
+    public static void main(String[] args) {
+
+        int arr[][] = new int[3][2];
+        int arr1[][] = {
+                { 1, 2 },
+                { 3, 4 },
+                { 5, 6 } };
+        // 3 row and 2 column
+
+        for (int row = 0; row <= 2; row++) {
+
+            for (int column = 0; column <= 1; column++) {
+                System.out.print(arr1[row][column]);
+            }
+            System.out.println();
+        }
+
+        System.out.println(arr1.length);
+
+    }
+}
+
+```
+### Output : 
+```
+12
+34
+56
+3
+
+```
