@@ -80,3 +80,24 @@
     
 <br><br><br><br>
 ## 2. 2D Array:
+A 2D Array means Array inside another array.
+- Table/Matrix (rows x columns)
+
+
+### Syntax: 
+```java
+int[][] arr = new int[3][3];
+// Meaning 3 row and 3 column => 3 x 3 => 9 elements
+```
+
+
+### Visual Understanding: 
+```text
+        Column
+          0   1   2
+        ─────────────
+Row 0 | 10  20  30
+Row 1 | 40  50  60
+Row 2 | 70  80  90
+```
+  
