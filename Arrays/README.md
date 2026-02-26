@@ -43,29 +43,28 @@
       arr = newArr;
 
        ```
-      - Via Arrays.copyOf() method
-        ```java
-import java.util.Arrays;
+    - Via Arrays.copyOf() method
+      ```java
+      import java.util.Arrays;s
 
-public class OneDArray01 {
-    public static void main(String[] args) {
+      public class OneDArray01 {
+          public static void main(String[] args) {
 
-        int arr[] = { 1, 2, 3, 4, 5 };
-        System.out.println(arr.length);     // Output : 5
-        for (int a : arr) {
-            System.out.print(a + " ");      // Output : 1 2 3 4 5 
-        }
-        System.out.println();
+              int arr[] = { 1, 2, 3, 4, 5 };
+              System.out.println(arr.length);     // Output : 5
+              for (int a : arr) {
+                  System.out.print(a + " ");      // Output : 1 2 3 4 5 
+              }
+              System.out.println();
 
-        int arr1[] = Arrays.copyOf(arr, 10);
-        System.out.println(arr1.length);    // Output : 10
-        for (int aa : arr1) {
-            System.out.print(aa + " ");     // Output : 1 2 3 4 5 0 0 0 0 0 
-        }
+              int arr1[] = Arrays.copyOf(arr, 10);
+              System.out.println(arr1.length);    // Output : 10
+              for (int aa : arr1) {
+                  System.out.print(aa + " ");     // Output : 1 2 3 4 5 0 0 0 0 0 
+              }
 
-    }
-}
+          }
+      }
 
-
-        ```
+      ```
     
