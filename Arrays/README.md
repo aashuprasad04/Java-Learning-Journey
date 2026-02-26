@@ -234,4 +234,17 @@ public class JaggedArray {
 456
 ```
 
+<br><br><br><br>
+
+## 4. Array class methods:
+Arrays is a utility class present in: 
+```java
+import java.util.Arrays;
+```
+It gives ready-made methods to work with arrays.
+
+
+
+
+
 
