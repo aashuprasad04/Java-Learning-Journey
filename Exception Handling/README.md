@@ -113,4 +113,7 @@ catch(ExceptionType e) {
 - Catch block handles the error.
 - Program continues execution after catch.
 
+## 3.	throw
+throw is a keyword in java used to manually create and send an exception in a program. 
+<br> It is used when a programmer wants to generate an exception intentionally. 
 
