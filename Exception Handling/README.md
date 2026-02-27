@@ -56,6 +56,12 @@ Cannot divide by zero
 4. throw : Used to throw exception manually
 5. throws : Declares exception 
 
+#### Why used :
+- Prevents progrm termination due to errors
+- Handles unexpected situation safely
+- Maintains normal program flow
+- Helps in debugging
+
 
 
 ### Throwable hierarchy
@@ -82,5 +88,29 @@ java.lang.Object
         ├── java.lang.reflect.InvocationTargetException
         ├── java.net.SocketException
         └── java.net.UnknownHostException
+
 ```
+
+
+## 1.	try-catch: 
+Used to handle runtime errors (exceptions) so that the program does not crash and continues running normally.
+
+#### Basic Syntax: 
+```java
+try {
+    // code that may cause exception
+}
+catch(ExceptionType e) {
+    // code to handle exception
+}
+```
+- e is a reference variable that stores the exception object and is used to access error information.
+  
+#### How it works:
+- Code inside try block executes.
+- If an error occurs - java creates an exception object.
+- Control immediately jumps to the catch block.
+- Catch block handles the error.
+- Program continues execution after catch.
+
 
