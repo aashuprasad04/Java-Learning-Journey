@@ -57,3 +57,28 @@ Cannot divide by zero
 5. throws : Declares exception 
 
 
+```text
+java.lang.Object
+└── java.lang.Throwable
+    ├── java.lang.Error
+    │   ├── java.lang.VirtualMachineError
+    │   │   ├── java.lang.OutOfMemoryError
+    │   │   └── java.lang.StackOverflowError
+    │   └── java.lang.LinkageError
+    │       ├── java.lang.ClassFormatError
+    │       └── java.lang.NoClassDefFoundError
+    └── java.lang.Exception
+        ├── java.lang.RuntimeException
+        │   ├── java.lang.ArithmeticException
+        │   ├── java.lang.NullPointerException
+        │   ├── java.lang.IndexOutOfBoundsException
+        │   └── java.lang.IllegalArgumentException
+        ├── java.io.IOException
+        │   ├── java.io.FileNotFoundException
+        │   └── java.io.EOFException
+        ├── java.sql.SQLException
+        ├── java.lang.reflect.InvocationTargetException
+        ├── java.net.SocketException
+        └── java.net.UnknownHostException
+```
+
