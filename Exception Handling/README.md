@@ -57,6 +57,8 @@ Cannot divide by zero
 5. throws : Declares exception 
 
 
+
+#### Throwable hierarchy
 ```text
 java.lang.Object
 └── java.lang.Throwable
