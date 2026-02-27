@@ -58,7 +58,7 @@ Cannot divide by zero
 
 
 
-#### Throwable hierarchy
+### Throwable hierarchy
 ```text
 java.lang.Object
 └── java.lang.Throwable
