@@ -40,12 +40,20 @@ Process finished with exit code 1
             System.out.println("Cannot divide by zero");
         }
 ```
-### Output : 
+#### Output : 
 ```
 Error => java.lang.ArithmeticException: / by zero
 Cannot divide by zero
 
 ```
+- Program will not crash.
 
+
+#### Main Keywords Used
+1. try : Code that may cause exception
+2. catch : Handles the exception
+3. finally : Always executes (optional)
+4. throw : Used to throw exception manually
+5. throws : Declares exception 
 
 
