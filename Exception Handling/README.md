@@ -10,13 +10,13 @@ Exception Handling is a mechanism in programming used to handle runtime errors.
 <br>So that the program does not crash and continues execution noramlly.
 <br>When an error occurs during program execution, exception handling helps manage it safely.
 
-#### Example (Without Exception Handling)
+#### 1.  Example (Without Exception Handling)
 ```java
 int a = 10;
 int b = 0;
 System.out.println(a / b);   // Error → program stops
 ```
-### Output : 
+#### Output : 
 ```text
 Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
 Exception in thread "main" java.lang.ArithmeticException: / by zero
@@ -25,3 +25,27 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 Process finished with exit code 1
 
 ```
+- This gives ArithmeticException and program terminates.
+
+#### 2. With Exception Handling
+```java
+
+        int a = 10;
+        int b = 0;
+
+        try {
+            System.out.println(a / b);
+        } catch (ArithmeticException e) {
+            System.out.println("Error => "  + e);
+            System.out.println("Cannot divide by zero");
+        }
+```
+### Output : 
+```
+Error => java.lang.ArithmeticException: / by zero
+Cannot divide by zero
+
+```
+
+
+
