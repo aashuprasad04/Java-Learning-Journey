@@ -88,12 +88,37 @@ public class Main {
 }
 
 ```
-
+<br><br><br><br>
 ## 3.	thread lifecycle
+The thread lifecycle describe the different states a thread goes through from creation to completion. 
+1. New<br>
+   Thread object is created but not started yet.
+   ```java
+   Thread t = new Thread();
+   ```
+2. Runnable
+   <br> After calling start(), the thread is ready to run.
+   ```java
+   t.start()
+   ```
+3. Running
+   <br> The thread is executing the run() method
+
+4. Waiting/ Blocked
+   <br> Thread is temporarily paused due to:
+   - sleep()
+   - join()
+   - waiting for a resource
+
+5. Terminated (Dead)
+   Thread finishes execution and stops permanently.
+
+```text
+NEW → RUNNABLE → RUNNING → WAITING → TERMINATED
+```
 
 
-
-
+<br><br><br><br>
 ## Important Thread Methods
 1. start(); <br>
    starts a new thread.
