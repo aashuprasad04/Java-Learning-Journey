@@ -223,3 +223,6 @@ public class Main {
         a1.start();                           
         System.out.println(a1.getPriority());    // Output : 10
      ```
+
+     8. yield()
+     9. interrupt()
