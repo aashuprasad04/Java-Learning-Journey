@@ -199,6 +199,27 @@ public class Main {
       Thread-1
       main
       Azy
-   ```  
-   
-   
+   ```
+
+   7. getPriority() & setPriority() <br>
+   Set execution priority of thread.
+   ```java
+   t.setPriority(Thread.MAX_PRIORITY);
+   ```
+   - Priority Range:
+     ```text
+      1 → MIN_PRIORITY
+      5 → NORM_PRIORITY (default)
+      10 → MAX_PRIORITY
+      ```
+   - Example
+     ```java
+        A a = new A("Thread01");              
+        A a1 = new A("Thraed02");             
+                                              
+        a1.setPriority(Thread.MAX_PRIORITY);  
+                                              
+        a.start();                            
+        a1.start();                           
+        System.out.println(a1.getPriority());    // Output : 10
+     ```
