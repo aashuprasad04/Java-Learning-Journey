@@ -117,6 +117,61 @@ The thread lifecycle describe the different states a thread goes through from cr
 NEW → RUNNABLE → RUNNING → WAITING → TERMINATED
 ```
 
+<br><br><br><br>
+## 4.	Synchronization
+Synchronization is a process used in multithreading to control access of multiple threads to a shared resource so that only one thread can use the resource at a time. 
+<br> 
+```java
+public class Table {
+
+    public synchronized void printTable(int n) {
+        for (int i = 1; i < 11; i++) {
+            System.out.println(i * n);
+        }
+    }
+}
+
+public class C extends Thread {
+
+    Table t;
+    int table;
+
+    C(Table t, int table) {
+        this.t = t;
+        this.table = table;
+    }
+
+    @Override
+    public void run() {
+        t.printTable(table);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Table t1 = new Table();
+        C c1 = new C(t1, 11);
+        C c2 = new C(t1, 2);
+
+        c1.start();
+        c2.start();
+
+    }
+}
+
+
+
+
+
+
+
+```
+
+
+
+
+
 
 <br><br><br><br>
 ## Important Thread Methods
