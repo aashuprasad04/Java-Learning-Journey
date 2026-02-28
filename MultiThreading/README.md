@@ -95,7 +95,7 @@ public class Main {
 
 
 ## Important Thread Methods
-1. start();
+1. start()
    starts a new thread.
    - Creates a new execution path.
    - Internally calls run() method.
