@@ -95,17 +95,17 @@ public class Main {
 
 
 ## Important Thread Methods
-1. start()
+1. start(); <br>
    starts a new thread.
    - Creates a new execution path.
    - Internally calls run() method.
    - Never call run() directly.
      
 
-2. run();
+2. run(); <br>
    Contains the coad executed by the thread.
    
-3. sleep(milliseconds);
+3. sleep(milliseconds); <br>
    Pause the thread for a specific time.
    - used for dely
    - throws InterruptedException
