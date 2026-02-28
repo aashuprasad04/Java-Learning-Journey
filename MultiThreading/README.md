@@ -144,4 +144,61 @@ public class Main {
       Thraed02
       Thraed02
      ```
+4. join(); <br>
+   Makes one thread wait for another thread to finish.
+   - Useful when execution order matters.
+     ```java
+        A a = new A("Thread01");
+        A a1 = new A("Thraed02");
 
+        a.start();
+        try {
+            a.join();   // Firstly execute thread A, then execute any other thread
+        } catch (InterruptedException e) {
+        }
+        a1.start();
+     ```
+
+5. isAlive();
+   <br> Checks Whether thread is running or not
+   - true : thread running
+   - false : thread finish
+  
+     ```java
+             A a = new A("Thread01");          
+        A a1 = new A("Thraed02");         
+                                          
+        a.start();                        
+        try {                             
+            a.join();                     
+        } catch (InterruptedException e) {
+        }                                 
+        a1.start();                       
+                                          
+        System.out.println(a.isAlive());  `
+     ```
+     ```text
+      Thread01
+      Thread01
+      false
+      Thraed02
+      Thraed02
+     ```
+
+6. getName() & setName()
+   <br> Get or Change thread name.
+   ```java
+        System.out.println(a.getName());
+        System.out.println(a1.getName())
+        System.out.println(Thread.curren
+        a.setName("Azy");               
+        System.out.println(a.getName());
+   ```
+   ```text
+      Thread-0
+      Thread-1
+      main
+      Azy
+   ```  
+   
+   
