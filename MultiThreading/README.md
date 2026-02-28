@@ -1,5 +1,5 @@
 1.	Thread class
-2. 	Runnable interface
+2. Runnable interface
 3.	thread lifecycle
 4.	Synchronization
 5.	wati(), notify()
@@ -88,3 +88,60 @@ public class Main {
 }
 
 ```
+
+## 3.	thread lifecycle
+
+
+
+
+## Important Thread Methods
+1. start();
+   starts a new thread.
+   - Creates a new execution path.
+   - Internally calls run() method.
+   - Never call run() directly.
+     
+
+2. run();
+   Contains the coad executed by the thread.
+   
+3. sleep(milliseconds);
+   Pause the thread for a specific time.
+   - used for dely
+   - throws InterruptedException
+     ```java
+        A a = new A("Thread01");
+        A a1 = new A("Thraed02");
+
+        a.start();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {}
+        a1.start();
+     ```
+     ```text
+      Thread01
+      Thread01
+      Thread01
+      Thread01
+      Thread01
+      Thread01
+      Thread01
+      Thread01
+      Thread01
+      Thread01
+      Thread01
+      Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+      Thraed02
+      Thraed02
+      Thraed02
+      Thraed02
+      Thraed02
+      Thraed02
+      Thraed02
+      Thraed02
+      Thraed02
+      Thraed02
+      Thraed02
+     ```
+
